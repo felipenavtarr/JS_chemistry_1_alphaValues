@@ -12,8 +12,6 @@ and open the template in the editor.
     </head>
     <body>
         <label>K<sub>a</sub>= </label><input type="text" id="constant"/>
-        <br/>
-        <label>C= </label><input type="text" id="concentration"/>
         <br/><br/>
         <button type="button" onclick="calculate()">Calculate</button>
         <br/><br/>
@@ -83,11 +81,13 @@ and open the template in the editor.
                         yaxis: {
                             min: 0,
                             max: 1,
+                            title: "&#945",
                             ticks: [0,0.25,0.5,0.75,1]
                         },
                         xaxis: {
                             min: 0,
                             max: 14,
+                            title: "pH",
                             ticks: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]
                         }
                     }
